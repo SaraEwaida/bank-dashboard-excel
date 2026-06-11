@@ -15,7 +15,7 @@ The following Excel skills were used to build it:
 2. Which branches hold the most balance, and how are accounts distributed?
 3. How do deposits and withdrawals trend month over month?
 4. How is the customer base split across Retail, SME, and Corporate segments?
-5. What is each branch's **Loan-to-Deposit Ratio (LDR)**— a key liquidity indicator?
+5. What is each branch's **Loan-to-Deposit Ratio (LDR)**, a key liquidity indicator?
 
 ## The Dataset
 
