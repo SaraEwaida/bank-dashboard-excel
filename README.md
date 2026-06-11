@@ -26,7 +26,7 @@ The workbook contains sample data across three working sheets plus a calculation
 | `Accounts` | 320 accounts, customer, branch, segment, account type, open date, balance, status |
 | `Transactions` | 12 months of deposits / withdrawals per branch |
 | `Calc` | Summary tables (aggregations) that feed every chart |
-| `Dashboard` | The final visual layer — KPI cards + 5 charts |
+| `Dashboard` | The final visual layer, KPI cards + 5 charts |
 
 > Deposits are stored as **positive**balances and loans as **negative**balances, which lets a single `Balance` column drive both deposit and loan metrics.
 
