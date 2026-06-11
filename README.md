@@ -23,7 +23,7 @@ The workbook contains sample data across three working sheets plus a calculation
 
 | Sheet | Contents |
 |-------|----------|
-| `Accounts` | 320 accounts — customer, branch, segment, account type, open date, balance, status |
+| `Accounts` | 320 accounts, customer, branch, segment, account type, open date, balance, status |
 | `Transactions` | 12 months of deposits / withdrawals per branch |
 | `Calc` | Summary tables (aggregations) that feed every chart |
 | `Dashboard` | The final visual layer — KPI cards + 5 charts |
