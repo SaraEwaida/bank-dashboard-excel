@@ -89,7 +89,7 @@ Withdrawals  =SUMIFS(Transactions!$D:$D, Transactions!$A:$A, K2)
 
 ## Featured Calculation: Loan-to-Deposit Ratio (LDR)
 
-The **LDR**measures how much of a branch's deposit base is lent out — a core liquidity and risk indicator. A lower ratio means more conservative lending relative to deposits.
+The **LDR**measures how much of a branch's deposit base is lent out, a core liquidity and risk indicator. A lower ratio means more conservative lending relative to deposits.
 
 **Per branch**(in the `Calc` sheet):
 
