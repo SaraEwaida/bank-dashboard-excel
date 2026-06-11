@@ -1,6 +1,6 @@
 # Bank Performance Dashboard
 
-This dashboard was built to give a bank a single, at-a-glance view of its **deposits, lending, transaction flows, and customer base**across branches. It turns raw account- and transaction-level records into the metrics a branch manager or analyst actually needs — total deposits, loan exposure, account activity, and the all-important **Loan-to-Deposit Ratio**. The final dashboard lives in [`bank_dashboard.xlsx`](bank_dashboard.xlsx).
+This dashboard was built to give a bank a single, at-a-glance view of its **deposits, lending, transaction flows, and customer base**across branches. It turns raw account- and transaction-level records into the metrics a branch manager or analyst actually needs, total deposits, loan exposure, account activity, and the all-important **Loan-to-Deposit Ratio**. The final dashboard lives in [`bank_dashboard.xlsx`](bank_dashboard.xlsx).
 
 The following Excel skills were used to build it:
 
@@ -105,7 +105,7 @@ LDR       =IF(P2=0, 0, Q2/P2)
 =-SUMIFS(Accounts!G:G, Accounts!E:E, "Loan") / SUMIFS(Accounts!G:G, Accounts!G:G, ">0")
 ```
 
-- **Formula Purpose:** Loans divided by deposits, per branch and bank-wide. The branch version uses **two criteria**in one `SUMIFS` — branch name *and* sign/type — to isolate exactly the right balances.
+- **Formula Purpose:** Loans divided by deposits, per branch and bank-wide. The branch version uses **two criteria**in one `SUMIFS`,  branch name *and* sign/type, to isolate exactly the right balances.
 - **Error Handling:** The `IF(P2=0, 0, …)` guard prevents a `#DIV/0!` error if a branch has no deposits.
 - **Visual:** Plotted as a percentage-formatted column chart so branches can be compared against each other (and, optionally, a target threshold).
 
@@ -113,7 +113,7 @@ LDR       =IF(P2=0, 0, Q2/P2)
 
 ## Conclusion
 
-This project demonstrates how a handful of `SUMIFS` / `COUNTIFS` aggregations on a clean `Calc` layer can power a fully dynamic banking dashboard. Because every chart and KPI references formulas — not hardcoded values — swapping the sample rows in `Accounts` and `Transactions` for real data refreshes the entire dashboard automatically.
+This project demonstrates how a handful of `SUMIFS` / `COUNTIFS` aggregations on a clean `Calc` layer can power a fully dynamic banking dashboard. Because every chart and KPI references formulas — not hardcoded values, swapping the sample rows in `Accounts` and `Transactions` for real data refreshes the entire dashboard automatically.
 
 ### To Use With Real Data
 1. Replace the rows in the `Accounts` and `Transactions` sheets, keeping the same column structure.
