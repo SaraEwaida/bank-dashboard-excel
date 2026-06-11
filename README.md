@@ -113,7 +113,7 @@ LDR       =IF(P2=0, 0, Q2/P2)
 
 ## Conclusion
 
-This project demonstrates how a handful of `SUMIFS` / `COUNTIFS` aggregations on a clean `Calc` layer can power a fully dynamic banking dashboard. Because every chart and KPI references formulas — not hardcoded values, swapping the sample rows in `Accounts` and `Transactions` for real data refreshes the entire dashboard automatically.
+This project demonstrates how a handful of `SUMIFS` / `COUNTIFS` aggregations on a clean `Calc` layer can power a fully dynamic banking dashboard. Because every chart and KPI references formulas, not hardcoded values, swapping the sample rows in `Accounts` and `Transactions` for real data refreshes the entire dashboard automatically.
 
 ### To Use With Real Data
 1. Replace the rows in the `Accounts` and `Transactions` sheets, keeping the same column structure.
